@@ -1,1 +1,1 @@
-#This repo maintains common programs used for competitive coding.
+#This repo maintains common programs, used for competitive coding, in C++
