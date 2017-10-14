@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int line(int n,char x);
+int main ()
+{
+!Gives a line of specific length and characters based on the user's input
+    char ch;
+    int length;
+    cout<<"Give character"<<endl;
+    cin>>ch;
+    cout<<"Give length"<<endl;
+    cin>>length;
+    line(length,ch);
+}
+int line(int n,char x)
+{
+    int i;
+    for (i=0; i<9; i++)
+        cout<<x;
+    cout<<endl;
+}
