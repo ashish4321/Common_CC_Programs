@@ -1,3 +1,7 @@
+Using Binary Indexed Tree, we can do both upgrade and query tasks in O(Logn) time. 
+The advantages of Binary Indexed Tree over Segment are, requires less space and very easy to implement.
+
+
 #include<vector>
 #include<algorithm>
 #include<iostream>
