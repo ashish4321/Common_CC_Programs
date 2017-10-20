@@ -4,10 +4,10 @@ using namespace std;
 
 unsigned long long int i,j,z,t,n;
 typedef long long int lli;
+void  sieve_of_Eratosthenes(lli);
 
 int main()
 {
-    void  sieve_of_Eratosthenes(lli);
     cin>>n;
     cout<<"All prime numbers till "<<n<<" :\n";
     sieve_of_Eratosthenes(n);
