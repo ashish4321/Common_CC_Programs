@@ -10,3 +10,4 @@
 - Topological Sorting
 - Dijkstra
 - Breadth First Search (bfs)
+- Counting Inversions In O(nlogn)
