@@ -1,0 +1,30 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+	cout<<"Enter the number of items: ";
+	int n;
+	cin>>n;
+	int a[n];
+	for(int i=0;i<n;i++)
+		cin>>a[i];
+	int minpos,t;
+	for(int i=0;i<n-1;i++)
+	{	minpos=i;
+		for(int j=i+1;j<n;j++)
+		{
+			if(a[j]<a[minpos])
+				minpos=j;
+		}
+		if(minpos!=i)
+		{	t=a[i];
+			a[i]=a[minpos];
+			a[minpos]=t;	
+		}
+	}
+	for(int i=0;i<n;i++)
+		cout<<a[i]<<" ";
+	cout<<endl;
+	return 0;
+}
